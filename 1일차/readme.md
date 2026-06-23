@@ -44,4 +44,25 @@
 | Llama4 Scout | `ollama run llama4:scout` | MoE, 10M context, 멀티모달 |
 | Llama4 Maverick | `ollama run llama4:maverick` | 범용 대화 최고 성능 |
 
-## 코딩/에이전트 → `qwen3.6:27b` 또는 `qwen2.5-coder:32b`, 멀티모달/tool calling → `gemma4:12b`, 범용/경량 → `llama3.2:3b`
+#### 코딩/에이전트 → `qwen3.6:27b` 또는 `qwen2.5-coder:32b`, 멀티모달/tool calling → `gemma4:12b`, 범용/경량 → `llama3.2:3b`
+
+---
+
+### Mistral 계열
+
+| 모델명 | pull 명령 | 특징 |
+|---|---|---|
+| Mistral 7B | `ollama run mistral` | 기본, 빠른 속도, 6GB VRAM |
+| Mistral (v0.3) | `ollama run mistral:v0.3` | 업데이트 버전 |
+| Mistral Small 4 | `ollama run mistral-small` | Apache 2.0, 상업적 이용 가능 |
+| Mistral Large 3 | `ollama run mistral-large` | 최고 성능, 고사양 필요 |
+| Mixtral 8x7B | `ollama run mixtral` | MoE, 8x7B |
+| Mixtral 8x22B | `ollama run mixtral:8x22b` | 대형 MoE |
+| Mistral Nemo | `ollama run mistral-nemo` | 12B, 128K context |
+| Codestral | `ollama run codestral` | 코딩 특화 |
+| Devstral | `ollama run devstral` | 에이전트 코딩 특화, SWE-bench 강점 |
+
+#### 가볍고 빠른 범용 → `mistral` (7B), 상업적 활용 → `mistral-small` (Apache 2.0), 코딩 에이전트 → `devstral`
+
+---
+
