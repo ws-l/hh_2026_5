@@ -1,8 +1,8 @@
-ollama pull 가능 모형(2026.6)
+## ollama pull 가능 모형(2026.6)
 
 ---
 
-## Qwen (Alibaba)
+### Qwen (Alibaba)
 
 | 모델명 | pull 명령 | 특징 |
 |---|---|---|
@@ -19,7 +19,7 @@ ollama pull 가능 모형(2026.6)
 
 ---
 
-## Gemma (Google DeepMind)
+### Gemma (Google DeepMind)
 
 | 모델명 | pull 명령 | 특징 |
 |---|---|---|
@@ -33,7 +33,7 @@ ollama pull 가능 모형(2026.6)
 
 ---
 
-## Llama (Meta)
+### Llama (Meta)
 
 | 모델명 | pull 명령 | 특징 |
 |---|---|---|
