@@ -4,21 +4,21 @@
 #### DictionaryLoader
 !pip install jq  
 from langchain_community.document_loaders import (  
-    DirectoryLoader,  
+    DirectoryLoader,      
     PyPDFLoader,  
-    JSONLoader,  
-    Docx2txtLoader,  
-    UnstructuredExcelLoader,  
-    SQLDatabaseLoader,   
-    WebBaseLoader,        #일반 웹페이지  
-    WikipediaLoader,      #위키피디아  
-    YoutubeLoader,        #유튜브 자막  
-    SitemapLoader,        #사이트맵 전체 크롤  
-    GitLoader,            #Git 레포 전체  
-    OutlookMessageLoader, #.msg  
-    SlackDirectoryLoader, #Slack 내보내기  
-    TelegramChatLoader,   #Telegram JSON  
-    ImageCaptionLoader,   #이미지 → 캡션 텍스트  
+     JSONLoader,  
+     Docx2txtLoader,  
+     UnstructuredExcelLoader,  
+     SQLDatabaseLoader,   
+     WebBaseLoader,        #일반 웹페이지  
+     WikipediaLoader,      #위키피디아  
+     YoutubeLoader,        #유튜브 자막  
+     SitemapLoader,        #사이트맵 전체 크롤  
+     GitLoader,            #Git 레포 전체  
+     OutlookMessageLoader, #.msg  
+     SlackDirectoryLoader, #Slack 내보내기  
+     TelegramChatLoader,   #Telegram JSON  
+     ImageCaptionLoader,   #이미지 → 캡션 텍스트  
 )  
 xls_loader = DirectoryLoader(path="./voc_card", glob="**/*.xlsx", loader_cls= UnstructuredExcelLoader)  
 pdf_loader = DirectoryLoader(path="./voc_card", glob="**/*.pdf", loader_cls=PyPDFLoader)  
