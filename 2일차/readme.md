@@ -2,7 +2,7 @@
 
 
 #### DictionaryLoader
-'''
+
 !pip install jq  
 from langchain_community.document_loaders import (  
     DirectoryLoader,      
@@ -33,5 +33,3 @@ for loader in [pdf_loader, docx_loader, json_loader]:
     docs.extend(loader.load())  
 
 print(f"총 {len(docs)}개 문서 로드")
-
-'''
